@@ -1,22 +1,22 @@
 body {
     margin: 0 auto;
     padding: 0 auto;
-    font-family: 'Ubuntu', sans-serif;
-    overflow: hidden;
+
 }
 
 #nava {
     z-index: 99;
-    display: grid;
-    grid-template-columns: 18vw 60vw 22vw;
+    text-align: center;
+    width: 100%;
+
 
 }
 
 .active a {
-    color: white;
+    color: black;
     font-size: 22px;
-
 }
+
 
 ul {
     margin-top: -10%;
@@ -28,7 +28,7 @@ ul {
 }
 
 #shit {
-    transition: all 0.5s;
+    transition: all 0.7s;
 }
 
 li {
@@ -46,10 +46,20 @@ li a {
     transition: all 0.4s;
 }
 
+#a,
+#b,
+#c {
+    border-right: 1px solid #ffa600;
+}
+
+#home {
+    border-right: 1px solid orange;
+}
+
+
 .nav-item a:hover {
     color: orange;
 }
-
 
 #toppic {
     z-index: -1;
@@ -58,78 +68,290 @@ li a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    border-bottom: 1px solid orange;
 }
 
 
 #who {
     height: 100vh;
-    background-color: black;
+    background-color: white;
+    border-bottom: 1px solid orange;
 }
 
 #com {
     height: 100vh;
-    background-color: orange;
+    background-color: white;
+    border-bottom: 1px solid orange;
 }
 
 #pro {
     height: 100vh;
-    background-color: red;
+    background-color: white;
+    border-bottom: 1px solid orange;
 }
 
-#cont {
+#conta {
     height: 100vh;
     background-color: white;
 }
 
+* {
+    box-sizing: border-box;
+}
 
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+}
+
+.itemm {
+    width: 300px;
+    height: 300px;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+}
+
+
+.lijn {
+ 
+    padding: 10px 0px 10px 0px;
+}
+input #button{
+    color: orange;
+    font-size: 12px;
+}
+
+#cater h1 {
+    color: orange;
+}
+
+#pics {
+    margin-top: 50vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+
+#p {
+    display: inline-block;
+}
 /*
-.icon-scroll,
-.icon-scroll:before {
-  position: absolute;
-  left: 50%;
+.css img {
+    height: 15vh;
+    transition: all 0.3s;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
-.icon-scroll {
-  width: 40px;
-  height: 70px;
-  margin-left: -20px;
-  top: 95%;
-  margin-top: -35px;
-  -webkit-box-shadow: inset 0 0 0 1px orange;
-          box-shadow: inset 0 0 0 1px orange;
-  border-radius: 25px;
+*/
+.css:hover img {
+    transform: scale(1.1);
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
-.icon-scroll:before {
-  content: '';
-  width: 8px;
-  height: 8px;
-  background: orange;
-  margin-left: -4px;
-  top: 8px;
-  border-radius: 4px;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-name: scroll;
-          animation-name: scroll;
+
+#nog1 {
+font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    position: relative;
+    top: 30vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr 0fr 2fr 2fr;
 }
-@-webkit-keyframes scroll {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(46px);
-            transform: translateY(46px);
-  }
+
+#supergrid {
+ 
 }
-@keyframes scroll {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(46px);
-            transform: translateY(46px);
-  }
-}*/
+
+.super {
+    margin-left: 10vw;
+}
+
+
+
+.f2 {
+     transition:all 1.0s; 
+}
+.f2 h5{
+    letter-spacing: 2px;
+     color: orange;  
+}
+.f2 h1{
+    color: orange;
+    letter-spacing: 2px;
+}
+.f2 a{
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: lightgray;
+    text-decoration: none;
+}
+#s a{
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+#s a:hover{
+    transition:all 1.0s; 
+   text-decoration-line: underline;
+    text-decoration-color: orange;
+}
+footer h5{
+    text-align: center;
+     color:  orange;
+     font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
+/* form starting stylings ------------------------------- */
+
+.group {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+#green input {
+    font-size: 12px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid orange;
+    color: orange;
+
+}
+
+#green h1{
+letter-spacing: 2.5px;
+}
+
+
+
+#cont {
+    letter-spacing: 1px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    color: lightgray;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.3s ease all;
+
+}
+
+/* active state */
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: orange;
+}
+
+/* BOTTOM BARS ================================= */
+
+.bar {
+    position: relative;
+    display: block;
+    width: 300px;
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: orange;
+    transition: 0.3s ease all;
+}
+
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+/* active state */
+
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+    width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* active state */
+
+input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.4s ease;
+    -moz-animation: inputHighlighter 0.4s ease;
+    animation: inputHighlighter 0.4s ease;
+}
+
+/* ANIMATIONS ================ */
+
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: orange;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: orange;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: orange;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
